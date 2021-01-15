@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+    margin: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+main{
+    background-image: url("assets/your_verse_hero.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer{
+    height: 30vh;
+}
+
+nav {
+    width: 70vw;
+    margin: 10px auto;
+    display: flex;
+    background-color: #878c8a;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+nav *{
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+article > *{
+    display: block;
+    text-align: center;
+}
+.tile-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 80%;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.foot * , article span{
+    font-size: 0.5rem;
+    text-align: center;
+}
+.foot > div{
+margin: auto auto;
+}
+.tiles{
+    width: 100%;
+}
+#fir-tile{
+    background-image: url(./assets/promo_iphone5s.jpg);
+    background-size: cover;
+}
+#sec-tile{
+background-image: url(assets/promo_iphone5c.jpg);
+background-size: cover;
+}
+#thr-tile{
+background-image: url(assets/promo_30_years.jpg);
+background-size: cover;
+}
+#fth-tile{
+background-image: url(assets/promo_supplier_responsibility.jpg);
+background-size: cover;
+}
